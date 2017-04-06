@@ -16,8 +16,9 @@ $f = fopen("private/db.txt", 'a');
 if(!$f) die ("Errore nella operazione con il file");
 
 fwrite($f, "ciao" );
-
+echo "dati"
 
 fclose($f);
 
 
+?>
