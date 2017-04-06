@@ -11,6 +11,7 @@ $gender = $_POST['gender'];
 $email = $_POST['email'];
 $pass = $_POST['password'];
 
+
 $f = fopen("private/db.txt", 'a');
 if(!$f) die ("Errore nella operazione con il file");
 
@@ -20,4 +21,3 @@ fwrite($f, "ciao" );
 fclose($f);
 
 
-?>
