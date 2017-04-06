@@ -15,10 +15,7 @@ $f = fopen("private/db.txt", 'a');
 if(!$f) die ("Errore nella operazione con il file");
 
 fwrite($f, "ciao" );
-fwrite($f, $cognome.'\n');
-fwrite($f, $gender.'\n');
-fwrite($f, $email.'\n');
-fwrite($f, $password.'\n');
+
 
 fclose($f);
 
