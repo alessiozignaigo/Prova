@@ -14,7 +14,7 @@ $pass = $_POST['password'];
 $f = fopen("private/db.txt", 'a');
 if(!$f) die ("Errore nella operazione con il file");
 
-fwrite($f, $nome.'\n');
+fwrite($f, "ciao" );
 fwrite($f, $cognome.'\n');
 fwrite($f, $gender.'\n');
 fwrite($f, $email.'\n');
